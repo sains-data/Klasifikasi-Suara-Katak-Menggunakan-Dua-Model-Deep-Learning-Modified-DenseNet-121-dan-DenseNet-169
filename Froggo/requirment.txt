@@ -1,0 +1,7 @@
+streamlit
+torch
+torchvision
+Pillow
+numpy
+pydub
+librosa
