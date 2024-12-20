@@ -28,10 +28,13 @@ b. **Ekstraksi MFCC**
 ## Model
 a. **Modified DenseNet-121**
   Model Modified DenseNet-121 memiliki 121 lapisan konvolusional dengan konektivitas yang memungkinkan setiap lapisan menerima input dari lapisan sebelumnya, sehingga mendukung aliran informasi yang lebih baik dan ekstraksi fitur yang efisien. Modifikasi pada model ini mencakup penerapan Batch Normalization untuk mempercepat konvergensi, penambahan dua lapisan Dropout untuk mengurangi overfitting, serta penggunaan Adaptive Average Pooling untuk mengurangi dimensi fitur menjadi ukuran tetap 1x1 sebelum proses klasifikasi.
+  
 b. **Modified DenseNet-169**
   Modified DenseNet-169 adalah model dengan 169 lapisan konvolusional yang memiliki konektivitas khas, memungkinkan pemrosesan fitur yang lebih kompleks. Beberapa modifikasi pada model ini meliputi penerapan Batch Normalization untuk menstabilkan distribusi aktivasi dan mempercepat proses konvergensi, penggunaan Dropout untuk mengurangi overfitting dan meningkatkan kemampuan generalisasi, serta penerapan Adaptive Average Pooling untuk mengurangi kompleksitas komputasi dan mempersiapkan fitur sebelum proses klasifikasi.
 
 ## Hasil
+
+Berikut ini hasil berdasarkan matrik evalusi serta grafik akurasi pelatihan dan validasi dari kedua model:
 
 ![image](https://github.com/user-attachments/assets/f3baa249-a726-4550-bb6e-dd8a18f8fd90)
 
