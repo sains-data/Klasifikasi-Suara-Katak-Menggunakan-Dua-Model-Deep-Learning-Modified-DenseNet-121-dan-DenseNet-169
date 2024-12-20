@@ -22,6 +22,7 @@ Data suara katak diperoleh dari Platform Xenocanto yang menggunakan suara dari 9
 ## Pra-Proses Data
 a. **Segmentasi Data**
   Rekaman suara katak dibagi menjadi segmen-segmen berdurasi 5 detik untuk memastikan konsistensi dalam analisis. Proses dimulai dengan pengurangan noise menggunakan metode noise reduction untuk meningkatkan kejernihan suara. Setelah itu, setiap segmen dikelompokkan berdasarkan nama spesies yang tertera dalam nama file, dan jumlah file untuk setiap kelas dicatat untuk memberikan gambaran distribusi data. Hasil akhir dari segmentasi ini adalah 1.512 segmen audio yang siap untuk analisis lebih lanjut.
+  
 b. **Ekstraksi MFCC**
   Sebanyak 13 komponen MFCC diambil untuk menggambarkan frekuensi yang relevan dengan persepsi suara manusia. Hasil ekstraksi kemudian divisualisasikan untuk menunjukkan perubahan koefisien dari waktu ke waktu, mempermudah pemahaman terhadap karakteristik suara. Koefisien MFCC yang telah diekstraksi disimpan dalam format yang memudahkan analisis lebih lanjut, menghasilkan total 1.512 file MFCC yang siap untuk diproses lebih lanjut.
 
